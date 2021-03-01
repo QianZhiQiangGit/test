@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-01T08:03:24.977Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="H8IncJ1jpOgdG3_YWNRc" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-01T09:00:27.315Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="8ccM1i09bIcql995mqL_" version="14.4.3" type="github">
   <diagram id="rxRaZt1I5-S7sYEG_dVl" name="Page-1">
     <mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -396,10 +396,52 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="c6LGysLpIKtuwl89X3RS-123" value="ivr 坐席" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1500" y="930" width="120" height="60" as="geometry" />
+          <mxGeometry x="2030" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c6LGysLpIKtuwl89X3RS-125" value="外呼录音记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1797" y="930" width="120" height="60" as="geometry" />
+          <mxGeometry x="2327" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c6LGysLpIKtuwl89X3RS-127" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="c6LGysLpIKtuwl89X3RS-129" target="c6LGysLpIKtuwl89X3RS-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c6LGysLpIKtuwl89X3RS-128" value="关联" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="c6LGysLpIKtuwl89X3RS-127">
+          <mxGeometry x="-0.015" y="-3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c6LGysLpIKtuwl89X3RS-129" value="后台" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c6LGysLpIKtuwl89X3RS-130" value="权限" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2327" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c6LGysLpIKtuwl89X3RS-132" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="c6LGysLpIKtuwl89X3RS-134" target="c6LGysLpIKtuwl89X3RS-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c6LGysLpIKtuwl89X3RS-133" value="关联" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="c6LGysLpIKtuwl89X3RS-132">
+          <mxGeometry x="-0.015" y="-3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c6LGysLpIKtuwl89X3RS-134" value="回答" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c6LGysLpIKtuwl89X3RS-135" value="旁听" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2327" y="385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c6LGysLpIKtuwl89X3RS-136" value="预约订单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2327" y="475" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c6LGysLpIKtuwl89X3RS-138" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="c6LGysLpIKtuwl89X3RS-137" target="c6LGysLpIKtuwl89X3RS-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c6LGysLpIKtuwl89X3RS-139" value="关联" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="c6LGysLpIKtuwl89X3RS-138">
+          <mxGeometry x="0.2203" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c6LGysLpIKtuwl89X3RS-137" value="预约" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="475" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
